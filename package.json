@@ -1,10 +1,22 @@
 {
-  "name": "heroku-budget",
+  "name": "node-budget",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.5.2",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "spacebars-loader": "^0.1.0",
+    "webpack": "^1.13.1"
   }
 }
